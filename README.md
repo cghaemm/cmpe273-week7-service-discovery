@@ -2,6 +2,48 @@
 
 A simple but functional service registry implementation for understanding service discovery in distributed systems.
 
+## 🚀 Quick Start
+
+### Prerequisites
+
+Python 3.8 or higher
+
+### Installation
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/ranjanr/ServiceRegistry.git
+cd ServiceRegistry
+```
+
+2. **Create a virtual environment (Python 3.13+):**
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. **Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+### Running the Service Registry
+
+```bash
+# Make sure virtual environment is activated
+source venv/bin/activate
+
+# Start the registry
+python3 service_registry_improved.py
+```
+
+You should see:
+```
+Service Registry starting on port 5000...
+Heartbeat timeout: 30s
+Cleanup interval: 10s
+```
+
 ## 📚 What is a Service Registry?
 
 A **Service Registry** is a database of available service instances in a distributed system. It enables:
